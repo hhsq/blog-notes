@@ -4,17 +4,16 @@
 ## **分类**
 * JavaScript系列
     - [数据类型](https://github.com/hhsq/study-notes/blob/master/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
+    - 深浅拷贝
     - 原型到原型链
     - 防抖节流
     - 闭包
     - 继承的实现方式
     - call和apply模拟实现
     - filter,map,some,every,find,reduce,flat等数组方法模拟实现
-    - 深浅拷贝
     - 异步编程
-    - 执行过程
+    - 执行顺序分析
     - 重学正则表达式
-## **目录**
 
 
 ## **项目初衷**
