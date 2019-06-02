@@ -3,7 +3,7 @@
 记录我平时学习的一些内容,总结我学习进阶的过程
 ## **分类**
 * JavaScript系列
-    - 数据类型
+    - [数据类型](https://github.com/hhsq/study-notes/blob/master/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
     - 原型到原型链
     - 防抖节流
     - 闭包
