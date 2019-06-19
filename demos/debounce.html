@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>debounce</title>
+</head>
+<body>
+<div id="content" style="width: 100%;height: 300px;background-color: gray;"></div>
+</body>
+</html>
+<script>
+  function debounce(func, wait = 500, isImmediate = false) {
+    let timeout;
+    return function () {
+      clearTimeout(timeout);
+      // 是否立即执行
+      if (isImmediate) {
+        // 是否在wait范围内执行过
+        let isTrigger = !timeout;
+        timeout = setTimeout(() => {
+          timeout = null;
+        }, wait);
+        isTrigger && doSomething.apply(this, arguments);
+      } else {
+        timeout = setTimeout(() => {
+          func.apply(this, arguments);
+        }, wait);
+      }
+    }
+  }
+
+
+  function doSomething() {
+    console.log(1111)
+  }
+
+  document.getElementById('content').onclick = debounce(doSomething, 1000, true);
+</script>
