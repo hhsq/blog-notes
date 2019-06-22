@@ -31,8 +31,35 @@
 
 
   function doSomething() {
-    console.log(1111)
+    console.log(123)
   }
 
   document.getElementById('content').onclick = debounce(doSomething, 1000, true);
+
+
+  function throttle(func, wait = 500) {
+    let time = 0;
+    return function () {
+      const now = Date.now();
+      if (now - time > wait) {
+        func.apply(this, arguments);
+        time = now;
+      }
+    }
+  }
+
+  function throttle1(func, wait = 500) {
+    let timeout;
+    return function () {
+      if (!timeout) {
+        timeout = setTimeout(() => {
+          func.apply(this, arguments);
+          timeout = null;
+        }, wait)
+      }
+    }
+  }
+
+  // document.getElementById('content').onmousemove  = throttle(doSomething, 1000);
+  // document.getElementById('content').onmousemove  = throttle1(doSomething, 1000);
 </script>
