@@ -13,9 +13,12 @@
     - [异步编程](https://github.com/hhsq/study-notes/blob/master/JavaScript/异步编程.md)
     - [执行顺序分析](https://github.com/hhsq/study-notes/blob/master/JavaScript/执行顺序分析.md)
     - [重学正则表达式](https://github.com/hhsq/study-notes/blob/master/JavaScript/重学正则表达式.md)
+    - [前端缓存](https://github.com/hhsq/study-notes/blob/master/JavaScript/前端缓存.md)
 
+* Typescript学习
 
 ## **项目初衷**
 1. 以前公司做技术分享,尝到了甜头,发现这样可以让自己深入思考,更加深入了解知识点,提升自己。这也是最主要的一点。
 2. 写过很多demo,看过很多博客,感觉很屌的样子,所以想试着自己写一写。
-3. ...
+3. 记录看过的很有含金量的博文链接
+4. ...
