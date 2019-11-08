@@ -14,8 +14,9 @@
     - [执行顺序分析](https://github.com/hhsq/study-notes/blob/master/JavaScript/执行顺序分析.md)
     - [重学正则表达式](https://github.com/hhsq/study-notes/blob/master/JavaScript/重学正则表达式.md)
     - [前端缓存](https://github.com/hhsq/study-notes/blob/master/JavaScript/前端缓存.md)
+    - [回流和重绘](https://github.com/chenjigeng/blog/issues/4)
+    - [JavaScript 数组 —— 演进&性能](http://voidcanvas.com/javascript-array-evolution-performance/)
 
-* Typescript学习
 
 ## **项目初衷**
 1. 以前公司做技术分享,尝到了甜头,发现这样可以让自己深入思考,更加深入了解知识点,提升自己。这也是最主要的一点。
