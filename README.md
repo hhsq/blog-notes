@@ -13,7 +13,7 @@
     - [异步编程](https://github.com/hhsq/study-notes/blob/master/JavaScript/异步编程.md)
     - [执行顺序分析](https://github.com/hhsq/study-notes/blob/master/JavaScript/执行顺序分析.md)
     - [重学正则表达式](https://github.com/hhsq/study-notes/blob/master/JavaScript/重学正则表达式.md)
-    - [前端缓存](https://github.com/hhsq/study-notes/blob/master/JavaScript/前端缓存.md)
+    - [前端缓存](https://juejin.im/post/5c22ee806fb9a049fb43b2c5?utm_source=gold_browser_extension#comment)
     - [回流和重绘](https://github.com/chenjigeng/blog/issues/4)
     - [JavaScript 数组 —— 演进&性能](http://voidcanvas.com/javascript-array-evolution-performance/)
 
